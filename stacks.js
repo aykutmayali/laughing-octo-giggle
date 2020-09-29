@@ -20,3 +20,5 @@ if(rword === word){
 } else {
   console.log(word + "is not a palindrome");
 }
+
+
