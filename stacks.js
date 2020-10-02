@@ -2,7 +2,7 @@
 /*push pop peek length*/
 
 var letters= [];
-var word = "oppo";
+var word = "free";
 var rword= "";
 
 for (var i = 0; i < word.length; i++) {
