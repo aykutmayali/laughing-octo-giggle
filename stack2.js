@@ -13,7 +13,7 @@ var Stack = function(){
         if(this.count ===0){
             return undefined;
         }
-    
+
         this.count--;
         var result = this.storage[this.count];
         delete this.storage[this.count];
@@ -31,43 +31,26 @@ var Stack = function(){
 
 var myStack = new Stack();
 
-mystack.push(1);
-mystack.push(2);
+myStack.push(1);
+myStack.push(2);
 
-console.log(mystack.peek);
-
-
-console.log(mystack.pop);
+console.log(myStack.peek);
 
 
-console.log(mystack.peek);
+console.log(myStack.pop);
 
 
-mystack.push(3);
-
-console.log(mystack.peek);
-
-mystack.push("dede");
-
-console.log(mystack.peek);
-
-console.log(mystack.size);
+console.log(myStack.peek);
 
 
+myStack.push(3);
 
+console.log(myStack.peek);
 
+myStack.push("dede");
 
+console.log(myStack.peek);
 
-
-
-
-
-
-
-
-
-
-
-
+console.log(myStack.size);
 
 
