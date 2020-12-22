@@ -11,6 +11,11 @@ function differentSymbolsNaive(str) {
     return uniqueChars.length;
 }
 
+function differentSymbolsNaive2(str) {
+    const chars = str.split('');
+    
+    return new Set(chars).size;
+ }
 
 
 /**
