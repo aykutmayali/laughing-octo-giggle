@@ -1,0 +1,21 @@
+div {
+ background-color: teal;
+ margin: 100 200;
+ padding: 10px 20px;
+ text-align: center;
+ color: ghostwhite;
+}
+.b1{
+    background-color: yellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 30px;
+    display: inline-block;
+    text-align: center;
+}
+.b1:hover {
+    background: orange;
+}
+

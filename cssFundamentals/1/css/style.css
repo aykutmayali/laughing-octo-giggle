@@ -1,4 +1,4 @@
-.card {
+ .card {
     background: #000;
     color: white;
     width: 560px;
@@ -30,3 +30,46 @@ p {
     margin-top: 45px;
     margin-bottom: 0;
 }
+
+/*
+strong {
+    background: yellow;
+    color: black;
+    width: 50px;
+    margin-right: 50px;
+    padding-right: 50px; /* include background*/
+
+
+
+.links {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.accent-color {
+    color: #FFE600;
+}
+
+a {
+    color: #e4e4e4;
+}
+
+a:hover {
+    color: gray;
+}
+/*
+a:active {
+    color: plum;
+}
+
+a:focus {
+    color: aquamarine;
+}
+
+a:hover {
+    color: firebrick;
+}
+
+a:link, a:visited {
+    color: #FFE600;
+} always looks to last one*/
