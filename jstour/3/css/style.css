@@ -1,0 +1,27 @@
+body {
+    margin: 1%;
+    background-color: honeydew;
+}
+
+header {
+    background-color: #281B2D;
+    margin: 0 5px;
+    padding: 30px 5px;
+    color: ivory;
+    text-align: center;
+    font-size: 64px;
+
+}
+
+.header{
+    text-align: center;
+    background-color: #41274b;
+    color: lavenderblush;
+    padding: 2px;
+    margin: 2%;
+    
+}
+
+.container {
+    display: flex;
+}
