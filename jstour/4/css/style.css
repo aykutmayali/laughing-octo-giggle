@@ -1,0 +1,69 @@
+body {
+    background-color: indigo;
+}
+
+.header{
+    text-align: center;
+    margin: 5%;
+    padding: 3%;
+    background-color: moccasin;
+    color: olivedrab;
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    color: palegoldenrod;
+    max-width: fit-content;
+}
+
+ul {
+    text-align: center;
+    background-color: rgb(216, 190, 40);
+    padding: 2%;
+    margin: 5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(94, 202, 94);
+    color: rgb(123, 56, 170);
+    max-width: 90%;
+}
+
+a{
+    text-align: center;
+    background-color: rgb(216, 190, 40);
+    padding: 2%;
+    margin: 5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(94, 202, 94);
+    color: rgb(123, 56, 170);
+    max-width: 90%;
+}
+
+.error {
+    padding: 10px;
+    color: crimson;
+    border: 1px solid lightcoral;
+}
+
+.success{
+    padding: 10px;
+    color: limegreen;
+    border: 1px olive solid;
+}
+
+.content{
+    padding: 7px;
+    margin: 4px 8px;
+}
+
+.test{
+    padding: 5px;
+    margin:3px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: orangered;
+    background-color: rgb(238, 119, 39);
+}

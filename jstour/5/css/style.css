@@ -1,0 +1,40 @@
+body {
+    background-color: rebeccapurple;
+}
+
+title, h1 {
+    background-color: crimson;
+    padding: auto;
+    color: steelblue;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    max-width: 200px;
+    padding: 8px;
+    margin: 8px auto;
+    background: tomato;
+    border: 1px dotted rgb(190, 66, 66);
+}
+
+button {
+    background: chartreuse;
+    margin: 10px 45%;
+    padding: 10px 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+button:hover{
+    background-color: coral;
+}
+
+.box {
+    width: 200 px;
+    height: 200px;
+    margin: 10px 20px;
+    padding: 20x;
+    background: chartreuse;
+    text-align: center;
+}
