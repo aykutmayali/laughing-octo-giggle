@@ -164,4 +164,11 @@ const promos = products
 console.log(promos);
 
 
+const p = document.querySelector('.contentparagraph');
+const inner = products.forEach(element => {
+    p.innerHTML += ` ${element.name} is ${element.price} liras ` + "<br>";
+});
 
+
+p.innerHTML += "<ul> promos for this products : <br>";
+p.innerHTML += "<li>" + `${promos}`;
