@@ -160,7 +160,7 @@ const products = [
 
 const promos = products
     .filter(product => product.price <20)
-    .map(product => `the ${product.name} is ${product.price /2} liras`);
+    .map(product => `<li> the ${product.name} is ${product.price /2} liras <br>`);
 console.log(promos);
 
 
@@ -171,4 +171,4 @@ const inner = products.forEach(element => {
 
 
 p.innerHTML += "<ul> promos for this products : <br>";
-p.innerHTML += "<li>" + `${promos}`;
+p.innerHTML += `${promos}`;
