@@ -1,0 +1,32 @@
+body {
+    background-color: gainsboro;
+}
+
+h1 {
+    background-color: azure;
+    color:slateblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.contentdiv {
+    margin: 10px 10px;
+    width: 90%;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.contentparagraph{
+    color: crimson;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    background-color: seashell;
+    font-family: fantasy;
+}
+
+li {
+    color:rebeccapurple;
+}
