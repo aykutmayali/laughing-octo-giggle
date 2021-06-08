@@ -50,3 +50,117 @@ function Dog(age, weight, name) {
   dog1.bark();
   
   dog2.bark();
+
+
+  function Hamster() {
+    this.hasFur = true;
+  }
+  
+  let waffle = new Hamster();
+  let pancake = new Hamster();
+
+  Hamster.prototype.eat = function () {
+    console.log('Chomp chomp chomp!');
+  };
+  
+  waffle.eat();
+  // 'Chomp chomp chomp!'
+  
+  pancake.eat();
+  // 'Chomp chomp chomp!'
+
+  Hamster.prototype = {
+    isHungry: false,
+    color: 'brown'
+  };
+
+  console.log(waffle.color);
+// undefined
+
+waffle.eat();
+// 'Chomp chomp chomp!'
+
+console.log(pancake.isHungry);
+// undefined
+
+const muffin = new Hamster();
+
+muffin.eat();
+// TypeError: muffin.eat is not a function
+
+console.log(muffin.isHungry);
+// false
+
+console.log(muffin.color);
+// 'brown'
+
+//The previous objects don't have access to the updated prototype's properties; they just retain their secret link to the old prototype:
+//ew Hamster objects created moving forward will use the updated prototype:
+
+function Phone() {
+  this.operatingSystem = 'Android';
+}
+
+Phone.prototype.screenSize = 6;
+
+const myPhone = new Phone();
+
+const own = myPhone.hasOwnProperty('operatingSystem');
+
+console.log(own);
+// true
+
+const inherited = myPhone.hasOwnProperty('screenSize');
+
+console.log(inherited);
+// false
+
+const rodent = {
+  favoriteFood: 'cheese',
+  hasTail: true
+};
+
+const ralph = new Mouse();
+
+const result = rodent.isPrototypeOf(ralph);
+
+console.log(result);
+// true
+// isPrototypeOf() is a great way to confirm if an object exists in another object's prototype chain.
+
+const myPrototype = Object.getPrototypeOf(ralph);
+
+console.log(myPrototype);
+// { favoriteFood: 'cheese', hasTail: true }
+
+
+function Longboard() {
+  this.material = 'bamboo';
+}
+
+const board = new Longboard();
+
+console.log(board.constructor);
+
+// // function Longboard() {
+// //   this.material = 'bamboo';
+// // }
+const rodent = {
+  favoriteFood: 'cheese',
+  hasTail: true
+};
+
+console.log(rodent.constructor);
+// function Object() { [native code] }
+
+
+const capitals = {
+  California: 'Sacramento',
+  Washington: 'Olympia',
+  Oregon: 'Salem',
+  Texas: 'Austin'
+};
+
+Object.getPrototypeOf(capitals) === Object.prototype
+
+// true
